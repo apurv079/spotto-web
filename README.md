@@ -33,4 +33,21 @@ Live, fast, and focused on a modern dark UI experience.
 ---
 
 ## 📂 Project Structure
+    spotto-web/
+    │
+    ├── index.html
+    ├── spotto.css
+    ├── spotto.js
+    │
+    ├── assets/
+    │ ├── images/
+    │ ├── icons/
+    │ └── fonts/
+    │
+    └── README.md
+    
+---
+
+
+
 
