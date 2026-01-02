@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 14C0 6.26801 6.26801 0 14 0H50C57.732 0 64 6.26801 64 14V50C64 57.732 57.732 64 50 64H14C6.26801 64 0 57.732 0 50V14Z" fill="url(#paint0_linear_3293_68)"/>
+<path d="M30.0003 20L26.667 28L32.0003 45.3333L37.3337 28L34.0003 20" stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.6665 20C39.0804 20 39.4887 20.0964 39.859 20.2815C40.2293 20.4667 40.5514 20.7355 40.7998 21.0667L44.7998 26.4C45.1429 26.8576 45.3297 27.4133 45.3329 27.9851C45.336 28.557 45.1552 29.1147 44.8171 29.576L34.1638 44.224C33.9168 44.5673 33.5917 44.847 33.2153 45.0398C32.8389 45.2327 32.4221 45.3333 31.9991 45.3333C31.5762 45.3333 31.1593 45.2327 30.7829 45.0398C30.4066 44.847 30.0815 44.5673 29.8345 44.224L19.1811 29.576C18.8433 29.1146 18.6627 28.5568 18.6661 27.9849C18.6694 27.413 18.8565 26.8574 19.1998 26.4L23.1971 21.0707C23.4454 20.7384 23.7677 20.4686 24.1385 20.2827C24.5093 20.0969 24.9183 20.0001 25.3331 20H38.6665Z" stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.667 28H45.3337" stroke="white" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_3293_68" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AD46FF"/>
+<stop offset="1" stop-color="#4F39F6"/>
+</linearGradient>
+</defs>
+</svg>
