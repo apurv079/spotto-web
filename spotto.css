@@ -30,6 +30,29 @@ body {
 
 @media (max-width: 768px){
 
+    .all-cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0.5rem ;
+    width: 368px;
+    background: #1E2939;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #364153;
+    }
+
+    
+.text-grp1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: left;
+    text-align: left;
+
+}
 }
 
 
@@ -1405,13 +1428,67 @@ p {                                                /* Experience cricket like ne
 
 /* FAQ Section */
 
+
+.faq-answer{                            /* closed state */
+    display: none;
+}
+
+.faq-item.active .faq-answer{           /* open state */
+    display: block;
+}
+
+.faq-question img {
+    transition: transform 0.3s ease;    /* rotate chevron */
+}
+
+.faq-item.active .faq-question img {            
+    transform: rotate(180deg);
+}
+
+
+.faq-icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    cursor: pointer;
+}
+
+
+
+
 .faq-container{
     background: #101828;
     padding: 100px 98px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:3rem;
+}
+
+.faq-box{
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.faq-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+
 }
 
 .faq-heading h1 {
@@ -1448,6 +1525,7 @@ p {                                                /* Experience cricket like ne
 
     flex: 1;
     font-family: 'inter', sans-serif;
+    padding-right: 3.5rem;
     width: auto;
     font-size: 1.1rem;
     font-weight: 400;
@@ -1457,9 +1535,14 @@ p {                                                /* Experience cricket like ne
 }
 
 .faq-question{
-    display: flex;
+
+
+    /*display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
+
+    display: block;
+    position: relative;
     align-items: flex-start;
     gap: 2rem;
 }
@@ -1478,4 +1561,110 @@ p {                                                /* Experience cricket like ne
     margin: 0;
 }
 
+/* Footer Section */
+
+.footer-container {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 98px;
+    gap: 2rem;
+}
+
+.footer-logo img {
+    width: 300px;
+    height: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+
+.info h4{
+    font-family: 'inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.info p{
+
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #D1D5DC;
+    margin: 0px;
+}
+
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+
+.games h4{
+    font-family: 'inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.games p{
+
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #D1D5DC;
+    margin: 0px;
+}
+
+.links-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 6rem;
+
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background: #000000;
+
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-copyright{
+    font-family: 'inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #D1D5DC;
+}
 
